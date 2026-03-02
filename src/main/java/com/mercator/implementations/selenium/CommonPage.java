@@ -4,7 +4,7 @@ import com.mercator.CommonPageInterface;
 import com.mercator.HTML;
 
 
-import com.mercator.locators.Target;
+import com.mercator.Target;
 import com.mercator.logger.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.NoSuchElementException;
