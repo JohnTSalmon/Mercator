@@ -1,11 +1,10 @@
-package com.mercator.locators.playwright;
+package com.mercator.implementations.playwright;
 
 import com.mercator.CommonPageInterface;
 import com.mercator.HTML;
-import com.mercator.locators.Target;
+import com.mercator.Target;
 import com.mercator.logger.Logger;
 import com.microsoft.playwright.*;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
