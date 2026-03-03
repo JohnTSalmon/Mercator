@@ -1,9 +1,9 @@
-Feature: Test Platform Login With Playwright
+Feature: Run Sauce Labs Scenario with Playwright or Selenuim
 
   Background:
     Given I open a browser
 
-  Scenario: Login
+  Scenario: Open the page and order an item
     Given I open the URL :
       | https://www.saucedemo.com/ |
     And I login with the following credentials
@@ -15,6 +15,11 @@ Feature: Test Platform Login With Playwright
       | Johan     | Bach     | LS1 123    |
     Then I should see the following confirmation message:
       | Thank you for your order! |
+
+
+
+
+
 
 
 
